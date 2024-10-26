@@ -5,6 +5,9 @@ project(CppStdTelegramBot LANGUAGES CXX)
 set(TELEGRAMBOT_SOURCE_FILES)
 file(GLOB TELEGRAMBOT_ALL_SOURCE_FILES
     "*.cpp"
+    "*.cc"
+    "*.c"
+    "*.h"
     "*.hpp"
 )
 list(APPEND TELEGRAMBOT_SOURCE_FILES ${TELEGRAMBOT_ALL_SOURCE_FILES})

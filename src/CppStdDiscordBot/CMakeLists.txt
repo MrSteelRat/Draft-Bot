@@ -5,6 +5,9 @@ project(CppStdDiscordBot LANGUAGES CXX)
 set(DISCORDBOT_SOURCE_FILES)
 file(GLOB DISCORDBOT_ALL_SOURCE_FILES
     "*.cpp"
+    "*.cc"
+    "*.c"
+    "*.h"
     "*.hpp"
 )
 list(APPEND DISCORDBOT_SOURCE_FILES ${DISCORDBOT_ALL_SOURCE_FILES})

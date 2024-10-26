@@ -5,6 +5,9 @@ project(BotsServer LANGUAGES CXX)
 set(BOTSSERVER_SOURCE_FILES)
 file(GLOB BOTSSERVER_ALL_SOURCE_FILES
     "*.cpp"
+    "*.cc"
+    "*.c"
+    "*.h"
     "*.hpp"
 )
 list(APPEND BOTSSERVER_SOURCE_FILES ${BOTSSERVER_ALL_SOURCE_FILES})
