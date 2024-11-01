@@ -1,0 +1,3 @@
+add_subdirectory(CppStdTelegramBot)
+add_subdirectory(CppStdDiscordBot)
+add_subdirectory(BotsServer)
