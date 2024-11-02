@@ -1,0 +1,7 @@
+hello_message: "Hello! I'am document bot"
+urls:
+  vk: "https://vk.com/x"
+  telegram: "https://t.me/x"
+  github: "https://github.com/x"
+  boosty: "https://boosty.to/x"
+  donat_alert: "https://www.donationalerts.com/r/x"
