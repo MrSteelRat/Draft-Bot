@@ -1,10 +1,10 @@
 # Projects
 if(DOCBOTS_ENABLE_CPPSTD_DISCORDBOT)
-    add_subdirectory("src/CppStdDiscordBot")
+    add_subdirectory(CppStdDiscordBot)
 endif()
 if(DOCBOTS_ENABLE_CPPSTD_TELEGRAMBOT)
-    add_subdirectory("src/CppStdTelegramBot")
+    add_subdirectory(CppStdTelegramBot)
 endif()
 if(DOCBOTS_ENABLE_BOTS_SERVER)
-    add_subdirectory("src/BotsServer")
+    add_subdirectory(BotsServer)
 endif()
