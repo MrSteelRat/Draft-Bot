@@ -1,6 +1,10 @@
 #include <cstdio>
 
-int main(int argc, char* argv[])
-{
-    return 0;
+#include "CoreTelegramBot.h"
+
+int main() {
+  CoreTelegramBot core;
+  core.start_bot();
+  core.base_command_bot();
+  return 0;
 }
