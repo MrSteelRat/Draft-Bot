@@ -1,4 +1,4 @@
-# Draft-CPP-bot
+# Draft-C-CPP-bot
 
 ## License
 
